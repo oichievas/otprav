@@ -1,0 +1,245 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+i {
+font-family: fontawesome !important;
+}
+.affa_head_testimonial{
+	margin-left: 80px;
+}
+
+.top_nav_affa{
+	margin: auto;
+	font-size: 18px;
+}
+.top_nav_affa a{
+	color: #000;
+	font-weight: 500;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 550px;
+  }
+@media screen and (max-width: 360px) {
+  .carousel-inner img {
+    width: 100%;
+    height: 200px;
+  }
+}  
+@media screen and (max-width: 375px) {
+  .carousel-inner img {
+    width: 100%;
+    height: 200px;
+  }
+}  
+
+.freeDelivery h5,p{
+  margin: 0px;
+}
+.freeDelivery p{
+  font-size: 15px ;
+}
+
+/* Линия */
+
+.title {
+  padding-bottom: 30px;
+  /* Чтобы спрятать часть линий, которые 
+  ** будут вылазить за пределы блока */
+  overflow: hidden;
+  /* Выравнивание заголовка по центру, 
+  ** можно использовать left, right */
+  text-align: center;
+  /* Тут можно добавить другие стили для заголовка */
+  font-size: 20px;
+}
+.title span {
+  /* Стили тега обертки для заголовков 
+  ** в несколько строк */
+  display: inline-block;
+  vertical-align: middle;
+}
+.title:before,
+.title:after {
+  /* Обязательно указываем пустое свойство content, 
+  ** иначе псевдоэлементы не появятся на сайте */
+  content: "";
+  /* Указываем что наши линии будут строчно-блочные и 
+  ** выравнивание по высоте - по центру */
+  display: inline-block;
+  vertical-align: middle;
+  /* Задаем ширину 100% и выбираем высоту линии, 
+  ** в нашем примере она равна 4 пикселям */
+  width: 100%;
+  height: 2px;
+  /* Добавляем цвет для линии */
+  background-color: #cccccc;
+  /* Добавляем пседоэлемантам возможность изменить 
+  ** позицию линии, для создания отступов от текста */
+  position: relative;
+}
+.title:before {
+  /* Смещаем левую линию на 100% влево, чтобы линия 
+  ** встала рядом с текстом слева */
+  margin-left: -100%;
+  /* Указываем в пикселях отступ линии от текста заголовка */
+  left: -14px;
+}
+.title:after {
+  /* Смещаем правую линию на 100% вправо, чтобы 
+  ** линия встала рядом с текстом справа */
+  margin-right: -100%;
+  /* Указываем в пикселях отступ линии от текста заголовка */
+  right: -14px;
+}
+
+.my-text-uppercase{
+  text-transform: uppercase;
+}
+.my-blue{
+  color: #0b025a;
+}
+.my-pink{
+  color: #f665a2;
+}
+.my-light-blue{
+  color: #00b1eb;
+}
+.first_div{
+  background: #f1f1f1;
+  padding: 35px 0px;
+}
+.second_div{
+  background: #eaecf1;
+  padding-top: 15px;
+}
+.second_div ul {
+ list-style-type: none;
+ /* margin-top: 15px; */
+}
+.second_div a{
+  text-decoration: none;
+  color: #4c4c4c;
+}
+.second_div a:hover{
+  color: #f765a2;
+}
+.second_div h6{
+  margin-left: 40px;
+}
+.vl {
+  border-left: 2px solid #4c4c4c;
+  height: auto;
+  padding-left: 15px;
+}
+.vl h5{
+  margin: 0px !important;
+}
+.sidebarP{
+  background: #dfdfdf;
+  color: #949494;
+  font-size: 16px;
+  font-weight: 600;
+}
+.sidebarDiv{
+  border: 2px solid #cfcfcf;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+.marginCards{
+  margin-left: 40px;
+  width: 12.5rem;  margin-bottom: 20px !important;margin: auto
+}
+.cardUnderText{
+  font-size: 12.5px;
+}
+
+
+.img-thumbnail{
+  border: 0px !important;
+  height: 160px;
+  width: 160px;
+}
+
+
+
+.search-width{
+  width: 80% !important;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.btn-light{
+  color: #f46142;
+  border-color: #f46142;
+}
+.btn-light :hover{
+  color: #000 !important;
+}
+.btn-primary{
+  background-color: #00b2ec !important;
+}
+
+/* Стили для карточек в категории BORDER */
+/* .card-img-top  */
+.cardBorder{
+  border: 1px solid rgb(224, 235, 130);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+#go-top {
+  position: fixed; 
+  bottom: 25px; 
+  right: 70px;
+  text-align: center;
+  cursor:pointer; 
+  display:none;
+  width: 80px;
+  height: 30px;
+  background: #00b1eb;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+#go-top:hover {
+ font-size: 18px;
+  color: #fff;
+}
+
+.lastInFooter{
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+  background: #eaecf1;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .phoneLeft{
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .marginLeftPhone{
+    margin-left: 6.5%;
+  }
+}
+.productPadding{
+  padding: 15px;
+}
+
+.boxShadow{
+  background: #fdef33; /* Цвет фона */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+/* Страница категории */
+.btnSearch{
+  text-transform: uppercase;
+  font-size: 16px; background-color: #00b2ec !;
+  border-color: #00b2ec !important;
+  margin-bottom: 25px;
+}
+
