@@ -23,18 +23,21 @@
   width: 100%;
   height: 100%;
   overflow: auto;
+  justify-content: space-between;
+  align-items: center;
   background-color: black;
 }
 
 /* Modal Content */
 .modal-content {
-  /* position: relative; */
-  margin: auto;
   padding: 0;
-  width: 100%;
   max-width: 1200px;
-
+  height: 100%;
+  justify-content: center;
+  align-items: center;
   display: flex;
+  background: #000;
+  margin-top: 20px;
 }
 
 /* The Close Button */
@@ -54,20 +57,26 @@
   cursor: pointer;
 }
 
+.mySlides > img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .mySlides {
   display: none;
   /* Мой код */
-  display: block;
-  width: 35%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   margin: auto;
 }
 .myModal{
   display: block;
 }
-.modal-content{
-  display: flex;
-  background: #000;
-  margin-top: 20px;
 }
 .cursor {
   cursor: pointer;
@@ -107,9 +116,11 @@
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
   position: absolute;
-  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 12px;
+  text-align: center;
 }
 
 img {
